@@ -8,6 +8,8 @@ app.set('view engine', 'handlebars');
 
 app.use(express.static("public"));
 
+const PORT = process.env.PORT || 3002;
+
 app.listen(3002, () => {
     console.log("Server is running");
 })
