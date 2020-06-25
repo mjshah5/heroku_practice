@@ -10,7 +10,7 @@ app.use(express.static("public"));
 
 const PORT = process.env.PORT || 3002;
 
-app.listen(3002, () => {
+app.listen(PORT, () => {
     console.log("Server is running");
 })
 
